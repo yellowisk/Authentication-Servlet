@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #1d29cc;
+    margin: 2vh;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0d61df;
+  }
+  
+  .container {
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    background-color: #57c2f3;
+    padding: 20px;
+    border-radius: 2rem;
+    box-shadow: -21px -16px 2px -3px rgba(17, 19, 124, 0.2),-37px -29px 15px -3px rgba(4, 8, 243, 0.2);
+  }
+
+ h1 {
+    color: darkblue;
+  }
+
+  h2 {
+    color: red;
+    margin-left: 45%;
+    font-size: xx-large;
+  }
+
+  button {
+    background-color: #1d29cc;
+    color: white;
+    padding: 12px 20px;
+    position: relative;
+    border: none;
+    text-align: center;
+    border-radius: 17px;
+    cursor: pointer;
+    float: right;
+    text-decoration: none;
+    overflow: hidden;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
